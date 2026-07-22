@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.app-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    width: 350px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94a3b8;
+}
+
+.btn-custom {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #172554;
+    color: white;
+}
