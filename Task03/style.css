@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.app-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    width: 350px;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.grade-a {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.grade-c {
+    color: #d97706;
+    font-weight: bold;
+}
+
+.grade-f {
+    color: #dc2626;
+    font-weight: bold;
+}
