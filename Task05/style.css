@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.app-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    width: 400px;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background: #f8fafc;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.task-item.done {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
+.del-btn {
+    color: #ef4444;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
